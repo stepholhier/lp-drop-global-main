@@ -133,23 +133,8 @@ function VendaTodosOsDias() {
                         <div className={styles.gridTwoColumns}>
                             <div className={`${styles.gridTwoColumnInfo} ${styles.gridTwoColumnsChild}`}>
                                 <h1 className={styles.gridTwoColumnInfoTitle}>
-                                    <span>
-                                        Tenha
-                                        <span className={`${styles.destaqueText} ${styles.mainCtaDestaque} ${styles.mainCtaDestaque2}`}>2 lojas de Dropshipping</span>
-                                    </span>
-                                    <span className={`${styles.destaqueText} ${styles.mainCtaDestaque} ${styles.mainCtaDestaque3}`}>01 no Brasil e 01 Global</span>
-                                     
+                                   suporte para plataformas
                                 </h1>
-                                <div className={styles.lojaUSAeBR}>
-                                    <h5>
-                                        <span><img src={ImageBandeiraBr} alt="" /> </span>
-                                        LOJA NACIONAL: Venda no Brasil em Real
-                                    </h5>
-                                    <h5>
-                                        <span><img src={ImageBandeiraUsa} alt="" /> </span>
-                                        LOJA GLOBAL: Venda no Exterior em Dólar
-                                    </h5>
-                                </div>
                                 <div className={styles.lojaUSAeBRBenefits}>
                                     <p>
                                         <span><RiAddFill /> </span>

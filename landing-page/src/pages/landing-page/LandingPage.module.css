@@ -65,6 +65,7 @@
     text-transform: uppercase;
 }
 
+
 .lojaUSAeBR {
     margin-block: 1em;
 }
@@ -279,7 +280,7 @@ p span.destaqueText {
 
 @media (min-width: 992px) {
     .gridTwoColumnInfoTitle {
-        font-size: 3.2em!important;
+        font-size: 6.7em!important;
     }
     .gridTwoColumnInfoTitle span:first-child {
         text-wrap: nowrap;
@@ -793,6 +794,7 @@ p span.destaqueText {
 
 .child9 .gridTwoColumns.lastChild .gridTwoColumnsChild:first-child h2 {
     margin-block: 1em;
+    color: var(--titlep-color3);
 }
 
 .child9 .gridTwoColumns.lastChild .gridTwoColumnsChild:last-child {
@@ -852,6 +854,11 @@ p span.destaqueText {
 
 .child10 .gridTwoColumns {
     box-shadow: 0 0 5px 3px #c2fff3;
+}
+
+.gridTwoColumns h1 {
+    color: var(--titlep-color3);
+    text-transform: lowercase;
 }
 
 .child10 .gridTwoColumnsChild:first-child img {
