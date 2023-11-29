@@ -3,16 +3,17 @@
     --content-color: #5a5a5a;
     --destaque-color1: #38d6be;
     --destaque-color2: #000000;
+    --titlep-color3: #fff;
 }
 
 .containerMainCta {
     margin: 0 auto!important;
-    background: linear-gradient(46.87deg, rgb(51, 51, 51) 0%, rgb(54, 54, 54) 96.94%)
+    background: linear-gradient(46.87deg, rgb(51, 51, 51) 0%, rgb(0, 0, 0) 96.94%)
 }
 
 .containerMainCta h1, .containerMainCta h2 {
     font-size: 2.2em;
-    color: var(--title-color);
+    color: var(--titlep-color3);
 }
 
 .containerMainCta h3, .containerMainCta h4, .containerMainCta h5, .containerMainCta h6 {
@@ -52,11 +53,11 @@
 }
 
 .mainCtaDestaque.mainCtaDestaque2 {
-    color: var(--title-color)!important;
+    color: var(--titlep-color3)!important;
 }
 .gridTwoColumnInfoTitle span:first-child:not(.mainCtaDestaque2),
 .mainCtaDestaque.mainCtaDestaque3 {
-    color: #f0983e!important;
+    color: #ffff!important;
 }
 
 .gridTwoColumnInfoTitle {
@@ -175,7 +176,7 @@ p span.destaqueText {
 }
 
 .child1 .logo .especialistasBtn a {
-    background-color: #15907d;
+    background-color: #fff;
     color: #FFF;
     font-weight: bold!important;
     font-size: 18px;
@@ -291,7 +292,7 @@ p span.destaqueText {
 
 @media (max-width: 576px) {
     .child1 .logo .especialistasBtn a {
-        background-color: #15907d;
+        background-color: #fff;
         color: #FFF;
         font-weight: bold!important;
         font-size: 14px;
@@ -421,8 +422,8 @@ p span.destaqueText {
 }
 
 .child1 .logo .especialistasBtn a {
-    background-color: #15907d;
-    color: #FFF;
+    background-color: #fff;
+    color: #343434;
     font-weight: bold!important;
     font-size: 18px;
     text-decoration: none;
