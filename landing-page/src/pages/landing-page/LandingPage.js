@@ -119,7 +119,7 @@ function VendaTodosOsDias() {
                 <div className={`${styles.child1} ${styles.child}`}>
                     <div>
                         <div className={styles.logo}>
-                                <a href="">
+                                <a href="https://placex.com.br/">
                                 <img src={logo} alt=""/>
                             </a>
 
@@ -127,7 +127,7 @@ function VendaTodosOsDias() {
                                 <a href="" rel="noreferrer">
                                     Equipe de Vendas
                                 </a>
-                            </div>
+                            </div> 
                         </div>
                         <div className={styles.gridTwoColumns}>
                             <div className={`${styles.gridTwoColumnInfo} ${styles.gridTwoColumnsChild}`}>
