@@ -1,1 +1,115 @@
 
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('./assets/fonts/Lato/Lato-Light.ttf');
+  }
+  @font-face {
+    font-family: 'LatoBold';
+    src: url('./assets/fonts/Lato/Lato-Bold.ttf');
+  }
+  :root {
+      --title-color: #383838;
+      --content-color: #5a5a5a;
+      --destaque-color: #38d6be;
+  }
+  
+  .destaqueText {
+    color: var(--destaque-color);
+  }
+  
+  .strongText {
+    font-weight: bold!important;
+  }
+  
+  .titleColor {
+    color: var(--title-color);
+  }
+  
+  .descriptionColor {
+    color: var(--content-color);
+  }
+  
+  .primaryText {
+    font-size: 3em!important;
+    margin: auto!important;
+    padding-inline: 0.5em!important;
+    padding-bottom: 1em;
+    @media (max-width: 768px) {
+      font-size: 2em!important;
+    }
+  }
+  
+  .secondaryText {
+    font-size: 2em!important;
+    margin: auto!important;
+    padding-inline: 0.5em!important;
+    padding-bottom: 1em;
+    @media (max-width: 768px) {
+      font-size: 1.5em!important;
+    }
+  }
+  
+  .tertiaryText {
+    font-size: 1.8em!important;
+    margin: auto!important;
+    padding-inline: 0.5em!important;
+    padding-bottom: 1em;
+    @media (max-width: 768px) {
+      font-size: 1.2em!important;
+    }
+  }
+  
+  iframe#webpack-dev-server-client-overlay {
+    display: none!important
+  }
+  .hide-resize-observer {
+    display: none!important;
+  }
+  * {
+    box-sizing: border-box!important;
+    padding: 0;
+    margin: 0;
+  }
+  *:focus,*:visited,*:active{
+    outline: none!important;
+    -webkit-tap-highlight-color: transparent!important;
+  }
+  body {
+    font-family: 'LatoRegular', sans-serif!important;
+    box-sizing: border-box!important;
+  }
+  
+  ul {
+    list-style: none!important;
+    padding-left: 0!important;
+  }
+  
+  a {
+    text-decoration: none!important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'LatoBold', sans-serif!important;
+  }
+  
+  p, span {
+    font-weight: 300!important;
+  }
+  
+  .Carousel__CarouselInner-sc-f2ox7y-2 {
+    pointer-events: none!important;
+  }
+  
+  .ReviewInfo__InfoContainer-sc-q3e1v-6 {
+    display: none!important;
+  }
+  
+  #pageLoja {
+    padding-top: 3.6em;
+  }
+  
+  @media (max-width: 768px) {
+    #pageLoja {
+      padding-top: 3.5em;
+    }
+  }
