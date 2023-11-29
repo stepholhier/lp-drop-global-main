@@ -121,7 +121,7 @@ function VendaTodosOsDias() {
                     <div>
                         <div className={styles.logo}>
                                 <a href="https://placex.com.br/">
-                                <img src={logo} alt=""/>
+                                <img src={logoPlaceX} alt=""/>
                             </a>
 
                             <div className={styles.especialistasBtn}>
