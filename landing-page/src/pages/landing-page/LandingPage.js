@@ -125,7 +125,7 @@ function VendaTodosOsDias() {
 
                             <div className={styles.especialistasBtn}>
                                 <a href="" rel="noreferrer">
-                                    Equipe de Vendasa
+                                    Equipe de Vendas
                                 </a>
                             </div>
                         </div>
