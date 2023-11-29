@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './LandingPage.module.css';
 import GoogleReviews from '../../components/google-reviews/GoogleReviews';
-import logo from '../../assets/images/placexwhite.svg';
+import logo from '../../assets/images/logo.webp';
 import ImageVantagesDrop from '../../assets/images/section-vantagesdrop.webp';
 import ImageMarketplaces from '../../assets/images/homemarketplaces.webp';
 import ImageNavicon1 from '../../assets/images/navicon-3.webp';
