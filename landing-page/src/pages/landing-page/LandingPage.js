@@ -40,7 +40,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
-import ImageMainCta from '../../assets/images/imagenew.png';
+import ImageMainCta from '../../assets/images/Mock.webp';
 import ImageBandeiraBr from '../../assets/images/br-lp-global.svg';
 import ImageBandeiraUsa from '../../assets/images/usa-lp-global.svg';
 import ImageStar from '../../assets/images/star.svg';
@@ -135,6 +135,7 @@ function VendaTodosOsDias() {
                                 <h1 className={styles.gridTwoColumnInfoTitle}>
                                    suporte para plataformas
                                 </h1>
+                                
                                 <div className={styles.lojaUSAeBRBenefits}>
                                     <p>
                                         <span><RiAddFill /> </span>
