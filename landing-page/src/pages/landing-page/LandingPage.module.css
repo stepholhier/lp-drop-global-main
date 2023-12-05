@@ -195,18 +195,18 @@ p span.destaqueText {
     width: max-content;
     margin-top: 2em;
     padding-top: 1em;
-    color: #FFF;
+    color: #000;
 }
 
 .child1 .ctaBtn a {
-    background: #15907d!important;
+    background: #fff!important;
     padding: 20px 60px;
     font-size: 22px;
 }
 
 .ctaBtn a span h3 {
     display: inline;
-    color: white;
+    color: black;
 }
 .ctaBtn a span:first-child {
     font-size: 10px;
@@ -330,6 +330,10 @@ p span.destaqueText {
     color: var(--content-color);
 }
 
+.LandingPage_lojaUSAeBRBenefits__wY6Ld p {
+    color: white;
+}
+
 .container span svg {
     vertical-align: middle;
 }
@@ -392,7 +396,8 @@ p span.destaqueText {
 
 /*foto alterada */
 .gridTwoColumnImage img {
-    margin-top: -400px;
+    margin-top: -133px;
+    margin-bottom: -35px;
     margin-left: 38px;
 }
 
@@ -981,6 +986,7 @@ p span.destaqueText {
     text-align: center;
     margin-block: 1.5em 1em;
     font-size: 16px;
+    color: white;
 }
 
 /* Media Queries */

@@ -199,51 +199,12 @@ function VendaTodosOsDias() {
             <section className={styles.containerChild}>
                 <div className={`${styles.child2} ${styles.child}`}>
                     <div>
-                        <div className={styles.gridTwoColumns}>
-                            <div className={styles.gridTwoColumnsChild}>
-                                <div className={styles.gridTwoColumnInfoSticky}>
+                                <div>
                                     <p className={styles.destaqueText}>
                                         <span><RiRocket2Fill /></span>
                                     </p>
                                     <p className={styles.destaqueText}>Drop Global</p>
                                     <h2>Tudo incluso no pacote</h2>
-                                </div>
-                            </div>
-
-                            <div className={`${styles.gridTwoColumnInfoCards} ${styles.gridTwoColumnsChild}`}>
-                                <div className={`${styles.stickyInfoCard} ${styles.stickyInfoChild1}`}>
-                                    <span>01</span>
-                                    <span className={styles.bandeiraGlobalSticky}><img src={ImageBandeiraBr} alt=""/></span>
-                                    <h4>01 Loja de Drop no Brasil</h4>
-                                    <p>Desenvolvemos a loja virtual completa para venda em Real no Brasil, com Logo, Banners e Integrações de fornecedores de produtos nacionais e internacionais.</p>
-                                </div>
-                                <div className={`${styles.stickyInfoCard} ${styles.stickyInfoChild2}`}>
-                                    <span>02</span>
-                                    <span className={styles.bandeiraGlobalSticky}><img src={ImageBandeiraUsa} alt=""/></span>
-                                    <h4>01 Loja de Drop Global</h4>
-                                    <p>Desenvolvemos a loja virtual Multidioma completa para venda em Dólar fora do país, com Logo, Banners, checkout internacional e Integrações de fornecedores internacionais.</p>
-                                </div>
-                                <div className={styles.stickyInfoCard}>
-                                    <span>03</span>
-                                    <h4>Mineração de 60 Produtos</h4>
-                                    <p>Nossos especialistas selecionam e cadastram os produtos nas 02 lojas, todos os produtos são testados e escolhidos para o seu nicho, só atuamos com fornecedores validados.</p>
-                                </div>
-                                <div className={styles.stickyInfoCard}>
-                                    <span>04</span>
-                                    <h4>03 Campanhas de Marketing</h4>
-                                    <p>Criamos os criativos e configuramos as campanhas com 3 produtos diferentes, você também tem uma assessoria dedicada com um especialista em marketing.</p>
-                                </div>
-                                <div className={styles.stickyInfoCard}>
-                                    <span>05</span>
-                                    <h4>Suporte 24hs com Especialistas</h4>
-                                    <p>Disponibilizamos suporte dedicado trilíngue e especialistas pelo WhatsApp e telefone, também possuímos centenas de vídeos tutoriais para auxiliar você no dia-a-dia</p>
-                                </div>
-                                <div className={styles.stickyInfoCard}>
-                                    <span>06</span>
-                                    <h4>Curso e Mentoria +300 Vídeos</h4>
-                                    <p>Aulas semanais, módulos recorrentes e uma comunidade com interação diária para que a sua jornada conosco seja junto a pessoas incríveis com conhecimentos reais.</p>
-                                </div>
-                            </div>
                         </div>
 
                         <span className={styles.sectionSeparator}>
