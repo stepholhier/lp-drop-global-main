@@ -7,6 +7,11 @@
     font-family: 'LatoBold';
     src: url('./assets/fonts/Lato/Lato-Bold.ttf');
   }
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: url(./assets/fonts/Lato/Montserrat-Black.ttf);
+  }
   :root {
       --title-color: #383838;
       --content-color: #5a5a5a;

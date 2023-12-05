@@ -392,7 +392,8 @@ p span.destaqueText {
 
 /*foto alterada */
 .gridTwoColumnImage img {
-    margin-top: -161px;
+    margin-top: -400px;
+    margin-left: 38px;
 }
 
 @media (max-width: 992px) {
@@ -866,6 +867,7 @@ p span.destaqueText {
     color: var(--titlep-color3);
     text-transform: lowercase;
     font-weight: 900;
+    font-family: 'Montserrat'!important;
 }
 
 .child10 .gridTwoColumnsChild:first-child img {
