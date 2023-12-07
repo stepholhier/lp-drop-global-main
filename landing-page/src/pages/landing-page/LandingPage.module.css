@@ -445,46 +445,11 @@ p span.destaqueText {
 }
 
 /* section 2 */
-.child2 .gridTwoColumnsChild {
-    align-self: start;
-}
-
-.stickyInfoCard {
-    position: relative;
-    background-color: #FFF;
-    text-align: end;
-    border-radius: 200px 0 0;
-	box-sizing: border-box;
-	box-shadow: 0 0 5px 3px #c2fff3;
-    width: 80%;
-    padding: 3em;
-    margin-block: 70px;
-}
-
-
-.child2 .bandeiraGlobalSticky {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-}
-
-.child2 .bandeiraGlobalSticky img {
-    max-width: 50px;
-}
-
-.stickyInfoCard span:not(.bandeiraGlobalSticky) {
-    position: absolute;
-    background-color: #38d6be;
-    padding: 0.05em 80% 3em 0.2em;
-    font-size: 2.8em;
-    left: 0;
-    top: 0px;
-    z-index: -1;
-}
-
-.child2 .stickyInfoCard h4 {
-    padding-left: 1em;
-    margin-bottom: 15px;
+.child2Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Section 3 */

@@ -198,19 +198,17 @@ function VendaTodosOsDias() {
 
             <section className={styles.containerChild}>
                 <div className={`${styles.child2} ${styles.child}`}>
-                    <div>
-                                <div>
-                                    <p className={styles.destaqueText}>
-                                        <span><RiRocket2Fill /></span>
-                                    </p>
-                                    <p className={styles.destaqueText}>Drop Global</p>
-                                    <h2>Tudo incluso no pacote</h2>
-                        </div>
-
-                        <span className={styles.sectionSeparator}>
-                            <img src={Separator} alt=""/>
-                        </span>
+                    <div className={styles.child2Content}>
+                        <p className={styles.destaqueText}>
+                            <span><RiRocket2Fill /></span>
+                        </p>
+                        <p className={styles.destaqueText}>Drop Global</p>
+                        <h2>Tudo incluso no pacote</h2>
                     </div>
+
+                    <span className={styles.sectionSeparator}>
+                        <img src={Separator} alt=""/>
+                    </span>
                 </div>
             </section>
 
