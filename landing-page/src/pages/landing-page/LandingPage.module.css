@@ -3,24 +3,25 @@
     --content-color: #5a5a5a;
     --destaque-color1: #38d6be;
     --destaque-color2: #000000;
-    --titlep-color3: #fff;
 }
+
 
 .containerMainCta {
     margin: 0 auto!important;
-    background: linear-gradient(46.87deg, rgb(51, 51, 51) 0%, rgb(0, 0, 0) 96.94%)
+    background: linear-gradient(46.87deg, rgb(208, 253, 239) 0%, rgb(225, 250, 252) 96.94%);
+    overflow: hidden;
+    padding-bottom: 1.5em
 }
 
 .containerMainCta h1, .containerMainCta h2 {
     font-size: 2.2em;
-    color: var(--titlep-color3);
+    color: var(--title-color);
 }
 
 .containerMainCta h3, .containerMainCta h4, .containerMainCta h5, .containerMainCta h6 {
     font-size: 1.5em;
     color: var(--title-color);
 }
-
 
 .containerMainCta a {
     text-decoration: none;
@@ -53,19 +54,32 @@
     margin-left: 8px;
 }
 
-.mainCtaDestaque.mainCtaDestaque2 {
-    color: var(--titlep-color3)!important;
-}
-.gridTwoColumnInfoTitle span:first-child:not(.mainCtaDestaque2),
+/* .mainCtaDestaque.mainCtaDestaque2 {
+    color: var(--title-color)!important;
+} */
+
 .mainCtaDestaque.mainCtaDestaque3 {
-    color: #ffff!important;
+    color: #15907D!important;
+    display: inline!important;
+    font-weight: 900!important;
+} 
+
+.child1 .gridTwoColumnInfoTitle {
+    color: #000000;
+}
+
+.child1 .iconFireHeader {
+    margin-bottom: 6px;
+}
+
+.priceBold {
+    font-weight: 900!important;
+    color: #191919;
 }
 
 .gridTwoColumnInfoTitle {
     line-height: 1.1;
-    text-transform: uppercase;
 }
-
 
 .lojaUSAeBR {
     margin-block: 1em;
@@ -104,7 +118,7 @@ p span.destaqueText {
 }
 
 
-.containerChild {
+.containerChild:not(.containerMainCta) {
     padding: 1em 1.5em;
     width: 100%;
 }
@@ -148,14 +162,19 @@ p span.destaqueText {
 
 
 /* Section 1 */
+.containerMainCta {
+    position: relative;
+}
+
 .child1 div:first-child .logo img {
     max-width: 150px;
 }
 
+
 .child1 .gridTwoColumnInfoCta {
     margin-block: 1em 2em;
     font-weight: bold!important;
-    color: #F0983E;
+    color: #15907D;
     text-align: center;
     margin: auto;
 }
@@ -177,8 +196,12 @@ p span.destaqueText {
     text-align: start;
 }
 
+.child1 .lojaUSAeBRBenefits p span {
+    color: #15907D;
+}
+
 .child1 .logo .especialistasBtn a {
-    background-color: #fff;
+    background-color: #15907d;
     color: #FFF;
     font-weight: bold!important;
     font-size: 18px;
@@ -191,22 +214,26 @@ p span.destaqueText {
     margin: auto;
 }
 
+.child1 .lojaUSAeBR h5 {
+    text-align: start;
+}
+
 .ctaBtn {
     width: max-content;
     margin-top: 2em;
     padding-top: 1em;
-    color: #000;
+    color: #FFF;
 }
 
 .child1 .ctaBtn a {
-    background: #fff!important;
-    padding: 20px 60px;
+    background: linear-gradient(46.87deg, rgb(177, 245, 250) 0%, rgb(77, 255, 158) 96.94%)!important;
+    padding: 20px 40px;
     font-size: 22px;
 }
 
 .ctaBtn a span h3 {
     display: inline;
-    color: black;
+    color: white;
 }
 .ctaBtn a span:first-child {
     font-size: 10px;
@@ -220,6 +247,14 @@ p span.destaqueText {
     text-align: center;
     margin-block: 1.5em 1em;
     font-size: 16px;
+}
+
+.ctaBtn p span {
+    color: var(--content-color)!important;
+}
+
+.ctaBtn p span svg {
+    vertical-align: middle;
 }
 
 /* Media Queries */
@@ -263,10 +298,6 @@ p span.destaqueText {
         margin: auto;
     }
 
-    .child1 .gridTwoColumnsChild:first-child {
-        text-align: center;
-    }
-
     .child1 .lojaUSAeBRBenefits {
         max-width: max-content;
         margin: auto;
@@ -281,7 +312,7 @@ p span.destaqueText {
 
 @media (min-width: 992px) {
     .gridTwoColumnInfoTitle {
-        font-size: 6.7em!important;
+        font-size: 4em!important;
     }
     .gridTwoColumnInfoTitle span:first-child {
         text-wrap: nowrap;
@@ -294,13 +325,29 @@ p span.destaqueText {
 
 @media (max-width: 576px) {
     .child1 .logo .especialistasBtn a {
-        background-color: #fff;
+        background-color: #15907d;
         color: #FFF;
         font-weight: bold!important;
         font-size: 14px;
         text-decoration: none;
         padding: 8px 15px;
         border-radius: 5px;
+    }
+
+    .ctaBtn a {
+        font-size: 18px!important;
+    }
+
+    .child3 .swiperContent .serviceContent .iconPlayYT {
+        width: 50px!important;
+    }
+
+    .child3 .mainVideo img {
+        padding-block: 1em!important;
+    }
+
+    .child1 h5.gridTwoColumnInfoCta {
+        margin-left: -6px;
     }
 }
 
@@ -330,10 +377,6 @@ p span.destaqueText {
     color: var(--content-color);
 }
 
-.LandingPage_lojaUSAeBRBenefits__wY6Ld p {
-    color: white;
-}
-
 .container span svg {
     vertical-align: middle;
 }
@@ -344,6 +387,7 @@ p span.destaqueText {
 
 .destaqueText {
     color: var(--destaque-color1)!important;
+    font-weight: 900!important;
 }
 
 .underlineText {
@@ -367,7 +411,7 @@ p span.destaqueText {
 }
 
 
-.containerChild {
+.containerChild:not(.containerMainCta) {
     padding: 2em 1.5em;
     width: 100%;
 }
@@ -392,13 +436,6 @@ p span.destaqueText {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
-}
-
-/*foto alterada */
-.gridTwoColumnImage img {
-    margin-top: -133px;
-    margin-bottom: -35px;
-    margin-left: 38px;
 }
 
 @media (max-width: 992px) {
@@ -435,8 +472,8 @@ p span.destaqueText {
 }
 
 .child1 .logo .especialistasBtn a {
-    background-color: #fff;
-    color: #343434;
+    background-color: #15907d;
+    color: #FFF;
     font-weight: bold!important;
     font-size: 18px;
     text-decoration: none;
@@ -445,11 +482,51 @@ p span.destaqueText {
 }
 
 /* section 2 */
-.child2Content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.setaPrimeiraSecao img {
+    position: absolute;
+    top: -34px!important;
+}
+
+.child2 .gridTwoColumnsChild {
+    align-self: start;
+}
+
+.stickyInfoCard {
+    position: relative;
+    background-color: #FFF;
+    text-align: end;
+    border-radius: 200px 0 0;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px 3px #c2fff3;
+    width: 80%;
+    padding: 3em;
+    margin-block: 70px;
+}
+
+
+.child2 .bandeiraGlobalSticky {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.child2 .bandeiraGlobalSticky img {
+    max-width: 50px;
+}
+
+.stickyInfoCard span:not(.bandeiraGlobalSticky) {
+    position: absolute;
+    background-color: #38d6be;
+    padding: 0.05em 80% 3em 0.2em;
+    font-size: 2.8em;
+    left: 0;
+    top: 0px;
+    z-index: -1;
+}
+
+.child2 .stickyInfoCard h4 {
+    padding-left: 1em;
+    margin-bottom: 15px;
 }
 
 /* Section 3 */
@@ -459,23 +536,19 @@ p span.destaqueText {
 }
 
 .child3 .mainVideo {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.child3 .mainVideo iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 70%;
-    height: 70%;
-    transform: translate(-50%, -50%);
+.child3 .mainVideo img {
+    padding-block: 5em;
+    max-width: 1000px;
 }
 
 .carouselVideos {
     padding-bottom: 2em;
+    pointer-events: none;
 }
 
 .swiperContent {
@@ -488,6 +561,19 @@ p span.destaqueText {
     align-items: center;
     border: none;
     outline: none;
+}
+
+.child3 .swiperContent .serviceContent {
+    position: relative;
+}
+
+.child3 .swiperContent .serviceContent .iconPlayYT {
+    position: absolute;
+    width: 80px;
+}
+
+.reviewsGoogle {
+    text-align: center;
 }
 
 .child3 .ctaBtn {
@@ -505,6 +591,12 @@ p span.destaqueText {
     font-size: 19px;
 }
 
+@media (min-width: 992px) {
+    .child4 .gridTwoColumns {
+        gap: 3em;
+    }
+}
+
 .child4 .gridTwoColumnInfo > p {
     margin-block: 1em;
 }
@@ -513,11 +605,18 @@ p span.destaqueText {
     margin-top: 3em;
 }
 
+.child4 .destaqueText h6 {
+    display: inline;
+    font-size: 18px;
+    color: #38d6be;
+}
+
 /* Section 5 */
 .child5 div:first-child h2 {
     text-align: center;
     margin: auto;
     padding-bottom: 1em;
+    font-size: 2.6rem;
 }
 
 .gridCardsInfos {
@@ -550,6 +649,12 @@ p span.destaqueText {
     margin: auto;
     font-size: 18px;
     margin-block: 2em;
+}
+
+.child5 h6 {
+    display: inline;
+    font-size: 20px;
+    color: #38d6be;
 }
 
 .child5 .gridTwoColumnInfoBtn {
@@ -597,12 +702,13 @@ p span.destaqueText {
     padding-top: 4em;
 }
 
-/* Section 7 */
-.child7 .gridCardsInfos {
-    grid-template-columns: 1fr 1fr 1fr;
+.child6 h6 {
+    font-size: 22px;
+    color: #38d6be;
+    margin-bottom: 0.3em;
 }
 
-
+/* Section 7 */
 .child7 .titleSub {
     text-align: center;
     margin: auto;
@@ -611,10 +717,16 @@ p span.destaqueText {
 
 .child7 .titleSub h2 {
     margin: auto;
+    font-size: 1.6rem;
+    padding-bottom: 0.5em;
+}
+
+.child7 h3 {
+    margin-bottom: 0.3em;
 }
 
 .child7 .gridCardInfoChild {
-    background-color: #38d6be;
+    background: linear-gradient(46.87deg, rgb(208, 253, 239) 0%, rgb(225, 250, 252) 96.94%);
     border-radius: 10px;
 	box-shadow: 0 0 5px 3px #c2fff3;
     display: flex;
@@ -625,17 +737,35 @@ p span.destaqueText {
     padding: 20px;
 }
 
-.child7 .gridCardInfoChild img {
-    max-width: 150px;
+.child7 .gridCardsInfos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.child7 > div:nth-child(3) {
+.child7 .titleSub h2 {
+    max-width: 800px!important;
+}
+
+.child7 .titleSub p {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.child7 .gridCardInfoChild img {
+    max-width: 120px;
+    margin-bottom: 1em;
+}
+
+.child7 .child7Info3 {
     text-align: center;
     max-width: 750px;
     margin: 3em auto;
 }
 
-.child7 div:nth-child(3) p {
+.child7 .child7Info3 p {
     margin-block: 1.5em;
 }
 
@@ -645,12 +775,17 @@ p span.destaqueText {
 
 /* Section 8 */
 .sectionBg {
-    background-color: #38d6be;
+    background: linear-gradient(46.87deg, rgb(208, 253, 239) 0%, rgb(225, 250, 252) 96.94%);
 }
 
-.child8 div:first-child h2 {
+.child8 .child8Title h2 {
     margin: auto;
     text-align: center;
+    font-size: 2rem;
+}
+
+.child8 .gridCardInfoChild h2 {
+    text-align: start;
 }
 
 .child8 .gridCardsInfos {
@@ -684,10 +819,21 @@ p span.destaqueText {
     background-color: #FFF;
     border-radius: 5px;
     padding: 20px;
+}
+
+.child8 .gridCardMiniInfoChild > div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1em;
+    max-width: 500px;
+    margin: auto;
+    text-align: start;
+}
+
+.child8 .gridCardMiniInfoChild > div span,
+.child8 .gridCardMiniInfoChild > div p {
+    text-align: start!important;
 }
 
 .child8 .gridCardMiniInfoChild div:first-child span {
@@ -752,10 +898,10 @@ p span.destaqueText {
 
 .child9 .gridTwoColumns.lastChild {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2fr 1fr;
     gap: 2em;
     margin: 3em auto;
-    max-width: 1200px;
+    max-width: 1000px;
     box-shadow: 0 0 5px 3px #c2fff3;
     overflow: hidden;
     padding: 1em;
@@ -776,7 +922,6 @@ p span.destaqueText {
 
 .child9 .gridTwoColumns.lastChild .gridTwoColumnsChild:first-child h2 {
     margin-block: 1em;
-    color: var(--titlep-color3);
 }
 
 .child9 .gridTwoColumns.lastChild .gridTwoColumnsChild:last-child {
@@ -792,6 +937,19 @@ p span.destaqueText {
 
 .child9 .gridTwoColumns.lastChild .gridTwoColumnsChild:last-child .logoInscrever img {
     max-width: 200px;
+}
+
+.child9 .logoInscrever > h1 {
+    font-size: 3rem;
+
+}
+
+.child9 .logoInscrever {
+    text-align: center;
+}
+
+.child9 .logoInscrever span {
+    font-size: 1.8rem;
 }
 
 
@@ -825,7 +983,10 @@ p span.destaqueText {
 .child9 .gridTwoColumns.lastChild .gridTwoColumnsChild:last-child .paymentIcons img {
     max-width: 200px;
     padding-block: 0.5em;
-    filter: grayscale(100%);
+}
+
+.child9 .logoInscrever h1 {
+    margin-block: 0;
 }
 
 /* Section 10 */
@@ -838,21 +999,14 @@ p span.destaqueText {
     box-shadow: 0 0 5px 3px #c2fff3;
 }
 
-.gridTwoColumns h1 {
-    color: var(--titlep-color3);
-    text-transform: lowercase;
-    font-weight: 900;
-    font-family: 'Montserrat'!important;
-}
-
 .child10 .gridTwoColumnsChild:first-child img {
-    max-width: 150px;
+    max-width: 300px;
 }
 
 .child10 .gridTwoColumnsChild:first-child {
     text-align: center;
     height: 100%;
-    background-color: #38d6be;
+    background: linear-gradient(46.87deg, rgb(208, 253, 239) 0%, rgb(225, 250, 252) 96.94%);;
 }
 
 .child10 .gridTwoColumnsChild h3 {
@@ -915,6 +1069,7 @@ p span.destaqueText {
     text-align: center;
     max-width: 600px;
     padding-block: 1em;
+    font-weight: 700!important;
 }
 
 .child12 a {
@@ -935,14 +1090,17 @@ p span.destaqueText {
     padding-top: 1em;
 }
 
+
 .ctaBtn a {
     background: linear-gradient(46.87deg, rgb(177, 245, 250) 0%, rgb(77, 255, 158) 96.94%);
     padding: 20px 60px;
-    font-size: 22px;
+    font-size: 20px;
+    color: #000;
 }
 
 .ctaBtn a span h3 {
     display: inline;
+    color: #000;
 }
 .ctaBtn a span:first-child {
     font-size: 10px;
@@ -956,7 +1114,6 @@ p span.destaqueText {
     text-align: center;
     margin-block: 1.5em 1em;
     font-size: 16px;
-    color: white;
 }
 
 /* Media Queries */
@@ -967,11 +1124,36 @@ p span.destaqueText {
     .container h3, .container h4, .container h5, .container h6 {
         max-width: 700px;
     }
+    .child1 .logo {
+        padding-inline: 1.5em;
+    }
 }
 
 @media (max-width: 768px) {
     .child1 div:first-child .logo img {
         max-width: 80px!important;
+    }
+    .child1 .gridTwoColumnsChild:last-child img {
+        transform: scale(1.5);
+    }
+    .child1 .gridTwoColumnsChild:last-child {
+        margin-block: 3em 5em;
+    }
+    .child1 .logo {
+        padding-inline: 1em;
+        padding-top: 1em;
+    }
+
+    .child8 .gridCardMiniInfoChild > div {
+        justify-content: start!important;
+    }
+
+    .child9 .lastChild span.destaqueText svg {
+        width: 14px;
+        margin-right: -5px;
+    }
+    .child9 .lastChild span.destaqueText:last-child:not(.valorTotal) {
+        font-size: 1rem;
     }
 }
 
@@ -987,7 +1169,7 @@ p span.destaqueText {
 
 @media (max-width: 992px) {
     .container h1, .container h2 {
-        font-size: 1.6em;
+        font-size: 2.2em;
     }
     .container h3, .container h4, .container h5, .container h6 {
         font-size: 1.2em;
@@ -1011,6 +1193,10 @@ p span.destaqueText {
 
     .child1 .gridTwoColumnsChild:first-child {
         text-align: center;
+    }
+
+    .child1 .gridTwoColumnsChild:last-child {
+        margin-right: -4em;
     }
 
     /* Section 2 */
@@ -1089,7 +1275,7 @@ p span.destaqueText {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .child1 .gridTwoColumnInfoTitle {
-        font-size: 2.4em!important;
+        font-size: 4.5em!important;
     }
 }
 
@@ -1107,6 +1293,36 @@ p span.destaqueText {
 
 @media (max-width: 375px) {
     .ctaBtn a {
-        padding: 20px 40px;
+        padding: 20px;
+    }
+    .child1 .gridTwoColumnInfoTitle {
+
+    }
+}
+
+@media (max-width: 576px) {
+    .child1 .gridTwoColumnInfoTitle {
+        font-size: 2.85rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .child1 .gridTwoColumnsChild:last-child img {
+        position: absolute!important;
+        right: 0!important;
+        top: 20%!important;
+        max-width: 60%!important;
+    }
+}
+
+@media (min-width: 993px) {
+    .child1 .gridTwoColumnsChild:last-child img {
+        position: absolute;
+        right: -37%;
+        top: 20%;
+    }
+
+    .child1 .gridTwoColumnInfo.gridTwoColumnsChild {
+        padding-left: 1.5em;
     }
 }
