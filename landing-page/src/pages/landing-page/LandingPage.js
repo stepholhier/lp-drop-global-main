@@ -21,7 +21,7 @@ import RiLayout3Fill from 'remixicon-react/Layout3FillIcon';
 import RiFlashlightFill from 'remixicon-react/FlashlightFillIcon';
 import RiReplyAllFill from 'remixicon-react/ReplyAllFillIcon';
 import RiCheckDoubleFill from 'remixicon-react/CheckDoubleFillIcon';
-import RiFileList3Fill from 'remixicon-react/FileList3FillIcon';
+import RiFileList3Fill from 'remixi`con-react/FileList3FillIcon';
 import RiCheckFill from 'remixicon-react/CheckFillIcon';
 import RiArrowRightSLine from 'remixicon-react/ArrowRightSLineIcon';
 import RiAddFill from 'remixicon-react/AddFillIcon';
