@@ -368,6 +368,14 @@ p span.destaqueText {
     color: var(--title-color);
 }
 
+.child7 .gridCardInfoChild h3 {
+    color: #fff;
+}
+
+.child7 .gridCardInfoChild p {
+    color: #fff;
+}
+
 .container a {
     text-decoration: none;
     color: inherit;
@@ -778,13 +786,15 @@ p span.destaqueText {
 
 /* Section 8 */
 .sectionBg {
-    background: linear-gradient(46.87deg, rgb(208, 253, 239) 0%, rgb(225, 250, 252) 96.94%);
+    background: linear-gradient(86deg, rgb(68, 68, 68) 29%, rgba(124,124,124,1) 100%);
 }
+
 
 .child8 .child8Title h2 {
     margin: auto;
     text-align: center;
     font-size: 2rem;
+    color: white;
 }
 
 .child8 .gridCardInfoChild h2 {
@@ -840,8 +850,8 @@ p span.destaqueText {
 }
 
 .child8 .gridCardMiniInfoChild div:first-child span {
-    color: #38d6be;
-    background-color: #c2fff3;
+    color: #202020;
+    background-color: #e9e9e9;
     padding: 10px;
     border-radius: 5px;
 }
@@ -858,6 +868,7 @@ p span.destaqueText {
     text-align: center;
     margin: auto;
     padding-block: 2em 0;
+    color: white;
 }
 
 .child8 .ctaBtn {
@@ -882,8 +893,8 @@ p span.destaqueText {
 }
 
 .child9 .iconStyle span {
-    color: #38d6be;
-    background-color: #c2fff3;
+    color: #202020;
+    background-color: #e9e9e9;
     padding: 4px 8px 10px;
     border-radius: 5px;
     margin-right: 10px;
@@ -905,7 +916,7 @@ p span.destaqueText {
     gap: 2em;
     margin: 3em auto;
     max-width: 1000px;
-    box-shadow: 0 0 5px 3px #c2fff3;
+    box-shadow: 0 0 5px 3px #e9e9e9;
     overflow: hidden;
     padding: 1em;
 }
