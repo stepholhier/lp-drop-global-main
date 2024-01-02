@@ -1014,7 +1014,7 @@ function VendaTodosOsDias() {
                         </a>
 
                         <div className={styles.copy}>
-                            <p>© 2023 PlaceX - Todos os direitos reservados</p>
+                            <p>© 2024 PlaceX - Todos os direitos reservados</p>
                         </div>  
                     </div>
                 </div>
