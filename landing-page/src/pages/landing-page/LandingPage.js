@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './LandingPage.module.css';
 import GoogleReviews from '../../components/google-reviews/GoogleReviews';
 import logo from '../../assets/images/Logoplace.webp';
-import logoblack from '../../assets/images/logo-place-black.webp'
+import logoblack from '../../assets/images/logo-place-black.webp';
 import ImageVantagesDrop from '../../assets/images/section-vantagesdrop.webp';
 import ImageCall1 from '../../assets/images/call-start.svg';
 import ImageCall2 from '../../assets/images/call-aprovacao.svg';
@@ -1003,7 +1003,7 @@ function VendaTodosOsDias() {
                 <div className={`${styles.child12} ${styles.child}`}>
                     <div className={styles.footerGrid}>
                         <div>
-                            <img src={logo} alt="" />
+                            <img src={logoblack} alt="" />
                         </div>
 
                         <p>Somos a Primeira Agência especializada em Dropshipping do Brasil e já entregamos mais de 9.000 lojas em 12 países.</p>
@@ -1014,7 +1014,7 @@ function VendaTodosOsDias() {
                         </a>
 
                         <div className={styles.copy}>
-                            <p>© 2023 Goodds - Todos os direitos reservados</p>
+                            <p>© 2023 PlaceX - Todos os direitos reservados</p>
                         </div>  
                     </div>
                 </div>
