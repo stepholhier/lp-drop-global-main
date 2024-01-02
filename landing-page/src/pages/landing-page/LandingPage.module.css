@@ -1,7 +1,7 @@
 :root {
     --title-color: #383838;
     --content-color: #5a5a5a;
-    --destaque-color1: #38d6be;
+    --destaque-color1: #8b8b8b;
     --destaque-color2: #000000;
 }
 
@@ -252,7 +252,7 @@ p span.destaqueText {
 }
 
 .ctaBtn p span {
-    color: var(--content-color)!important;
+    color: #fff!important;
 }
 
 .ctaBtn p span svg {
@@ -388,7 +388,7 @@ p span.destaqueText {
 }
 
 .destaqueText {
-    color: var(--destaque-color1)!important;
+    color: #5b5b5b!important;
     font-weight: 900!important;
 }
 
@@ -496,10 +496,11 @@ p span.destaqueText {
 .stickyInfoCard {
     position: relative;
     background-color: #FFF;
+    color: white;
     text-align: end;
     border-radius: 200px 0 0;
 	box-sizing: border-box;
-	box-shadow: 0 0 5px 3px #c2fff3;
+	box-shadow: 0 0 5px 3px #e0e0e0;
     width: 80%;
     padding: 3em;
     margin-block: 70px;
@@ -518,7 +519,7 @@ p span.destaqueText {
 
 .stickyInfoCard span:not(.bandeiraGlobalSticky) {
     position: absolute;
-    background-color: #38d6be;
+    background-color: #202020;
     padding: 0.05em 80% 3em 0.2em;
     font-size: 2.8em;
     left: 0;
@@ -1206,7 +1207,7 @@ p span.destaqueText {
     .stickyInfoCard {
         border-radius: 160px 0 0;
         box-sizing: border-box;
-        box-shadow: 0 0 5px 3px #c2fff3;
+        box-shadow: 0 0 5px 3px #e0e0e0;
         width: 100%!important;
         padding: 3em;
         margin-block: 40px!important;
